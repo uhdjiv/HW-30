@@ -1,0 +1,36 @@
+ul{
+    list-style: none;
+}
+.cubic{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    display: block;
+    animation: 1s infinite;
+  animation-name:Cubic ;
+  animation-duration: 1.5s;
+  animation-direction: alternate;
+}
+@keyframes Cubic{
+    0%{
+        top: 0px;
+        left: 0%;
+    }
+    25%{
+top: 400px;
+left: 0px;
+    }
+    50%{
+    top: 400px;
+left: 500px
+    }
+    75%{
+top: 0px;
+left: 500px;
+    }
+    100%{
+top: 0px;
+left: 0%;
+    }
+}
