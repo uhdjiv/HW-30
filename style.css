@@ -9,28 +9,33 @@ ul{
     display: block;
     animation: 1s infinite;
   animation-name:Cubic ;
-  animation-duration: 1.5s;
-  animation-direction: alternate;
+  animation-duration: 5s;
+  animation-direction: infinite;
 }
 @keyframes Cubic{
     0%{
         top: 0px;
         left: 0%;
+        background-color: greenyellow;
     }
     25%{
-top: 400px;
+top: 450px;
 left: 0px;
+background-color: darkorange;
     }
     50%{
-    top: 400px;
-left: 500px
+    top: 450px;
+    left: 1100px;
+    background-color: rgb(11, 50, 242);
     }
     75%{
 top: 0px;
-left: 500px;
+left: 1100px;
+background-color: khaki;
     }
     100%{
 top: 0px;
 left: 0%;
+background-color: greenyellow;
     }
 }
